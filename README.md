@@ -1,5 +1,7 @@
 # hiPSCore
-code for hiPSCore machine learning models
+![logo](https://github.com/user-attachments/assets/9895ad83-a4f3-48b6-839f-2396e7de61b3)
+
+Code for hiPSCore machine learning models
 
 The purpose of this repository is to enable access to the code (2024-07-17_ml_code_hipscore.R) which was used to train the machine learning models of the article "Reassessment of Marker Genes in Human Induced Pluripotent Stem Cells for Enhanced Quality Control" by Dobner et al.
 These machine learning models are used to classify human induced pluripotent stem cells (hiPSCs)-derived early germ layer samples in a combinatorial approach based on binary classification of four individual subtests for each of the early hiPSC differentiation states undifferentiated/pluripotent, endoderm, ectoderm, and mesoderm. 
