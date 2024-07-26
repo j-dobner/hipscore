@@ -11,7 +11,7 @@ testing_list <- df_ml[-intrain_list,]
 algo_list <- c("ranger", "svmLinear", "pcaNNet", "JRip", "C5.0", "rpart")
 levels(training_list$diff_type) <- make.names(levels(factor(training_list$diff_type)))
 levels(training_list$diff_type) <- make.names(levels(factor(training_list$diff_type)))
-#Train multiple models
+#Train multiple models (use smote to account for sample imbalances)
 trainControl <- trainControl(method = "repeatedcv",
                              number=10,
                              index = createResample(training_list$diff_type, 10),
