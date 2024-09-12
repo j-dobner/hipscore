@@ -2,7 +2,7 @@
 ![logo](https://github.com/user-attachments/assets/9895ad83-a4f3-48b6-839f-2396e7de61b3)
 
 hiPSCore is a pipeline to enable rapid, reproducible, and robust assesment of pluripotency potential of human induced pluripotent stem cells (hiPSCs). 
-A web implementation is available at: https://jdobner.shinyapps.io/hipscore/
+A web implementation is available at: https://jdobner.shinyapps.io/hipscore/ (https://jdobner.shinyapps.io/hipscoredev/ for the development version).
 
 **Code for hiPSCore machine learning models**
 
